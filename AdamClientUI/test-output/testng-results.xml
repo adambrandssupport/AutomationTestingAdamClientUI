@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-02T14:41:24 IST" name="Default suite" finished-at="2023-10-02T14:41:58 IST" duration-ms="34479">
+    <groups>
+    </groups>
+    <test started-at="2023-10-02T14:41:24 IST" name="Default test" finished-at="2023-10-02T14:41:58 IST" duration-ms="34479">
+      <class name="EditKYCBeforeSubmit.EditKYCBeforeSubmit">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:EditKYCBeforeSubmit.EditKYCBeforeSubmit@34123d65]" started-at="2023-10-02T14:41:25 IST" name="openBrowser" finished-at="2023-10-02T14:41:28 IST" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="KYCFormFill(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EditKYCBeforeSubmit.EditKYCBeforeSubmit@34123d65]" started-at="2023-10-02T14:41:28 IST" name="KYCFormFill" data-provider="dataContainerEditKYC" finished-at="2023-10-02T14:41:58 IST" duration-ms="30022" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Positive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hashtag InfoSystem 123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[parent Hashtag InfoSystem 123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1/405, 1st Floor, hashtag, Nanpura, Surat, Gujarat 395001]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Israel]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[www.hashtaginfosystem.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[hashtaginfosystem.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Others]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Private Limited]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Others]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Transportation]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[3009]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[REG123 455]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[TRD 456]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[3008]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[VAT 456]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[State Bank Of India]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[1/405, 2nd Floor, SBI, Surat, Gujarat 395001]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[SBISWIFT1245658]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[HashCurrent Avccount]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Kuwaiti Dinar]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[SBINO123456789123456]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[SBIIBAN12235555544444]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Mr. John Snow B'M]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[International]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[+918698706548]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[ICICI Bank]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[ICICISWIT122322]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[Mrs. Robert B'aratheon]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[Miss. Aegon Targarian]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Bahamas]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[P B Dhangar PCD]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[C E Officer]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[International]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[+1 23456789041]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[pbdhanger@gmail.com]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[Mr. A S S'hivade CFD]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[M Director]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[Colombia]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[1234567842]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[asshivade@gmail.com]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[Emmar ODD]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Finance Manager]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Oman]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[789561243]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[emmar_123@gmail.com]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[J P Datta A'CCD]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Operation Manager]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[Afghanistan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[7894561244]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[jpdatta@gmail.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[Oil Filtration]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[Mr. Johan C'arter]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Mr. Jiya D'susa]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[Oman]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[789456444]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[Jiya@hashtaginfosystem.com]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[Mr. Tom J'erry]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[Oman]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[789561555]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[tom@hashtaginfosystem.in]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\1certOfInc43.png]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\2ArtOfAsso107.jpeg]]>
+              </value>
+            </param>
+            <param index="70">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\3TradeLisc133.pdf]]>
+              </value>
+            </param>
+            <param index="71">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\4TaxRegi.jpeg]]>
+              </value>
+            </param>
+            <param index="72">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\5CompProfile70.png]]>
+              </value>
+            </param>
+            <param index="73">
+              <value>
+                <![CDATA[www.hashtaginfosystemurl.com]]>
+              </value>
+            </param>
+            <param index="74">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\6BankRef43.png]]>
+              </value>
+            </param>
+            <param index="75">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\7Passport133.pdf]]>
+              </value>
+            </param>
+            <param index="76">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\8AuthoSign105.jpeg]]>
+              </value>
+            </param>
+            <param index="77">
+              <value>
+                <![CDATA[Mr. Nikhil]]>
+              </value>
+            </param>
+            <param index="78">
+              <value>
+                <![CDATA[Edit]]>
+              </value>
+            </param>
+            <param index="79">
+              <value>
+                <![CDATA[Edit Hashtag InfoSystem 123456]]>
+              </value>
+            </param>
+            <param index="80">
+              <value>
+                <![CDATA[Edit parent Hashtag InfoSystem 123456]]>
+              </value>
+            </param>
+            <param index="81">
+              <value>
+                <![CDATA[Edit 1/405, 1st Floor, hashtag, Nanpura, Surat, Gujarat 395001]]>
+              </value>
+            </param>
+            <param index="82">
+              <value>
+                <![CDATA[Pakistan]]>
+              </value>
+            </param>
+            <param index="83">
+              <value>
+                <![CDATA[1234567855]]>
+              </value>
+            </param>
+            <param index="84">
+              <value>
+                <![CDATA[www.Edithashtaginfosystem.com]]>
+              </value>
+            </param>
+            <param index="85">
+              <value>
+                <![CDATA[Edithashtaginfosystem.com]]>
+              </value>
+            </param>
+            <param index="86">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="87">
+              <value>
+                <![CDATA[Others]]>
+              </value>
+            </param>
+            <param index="88">
+              <value>
+                <![CDATA[EditPrivate Limited]]>
+              </value>
+            </param>
+            <param index="89">
+              <value>
+                <![CDATA[Others]]>
+              </value>
+            </param>
+            <param index="90">
+              <value>
+                <![CDATA[EditTransportation]]>
+              </value>
+            </param>
+            <param index="91">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="92">
+              <value>
+                <![CDATA[3009]]>
+              </value>
+            </param>
+            <param index="93">
+              <value>
+                <![CDATA[EditREG123 455]]>
+              </value>
+            </param>
+            <param index="94">
+              <value>
+                <![CDATA[EditTRD 456]]>
+              </value>
+            </param>
+            <param index="95">
+              <value>
+                <![CDATA[3008]]>
+              </value>
+            </param>
+            <param index="96">
+              <value>
+                <![CDATA[EditVAT 456]]>
+              </value>
+            </param>
+            <param index="97">
+              <value>
+                <![CDATA[Edit State Bank Of India]]>
+              </value>
+            </param>
+            <param index="98">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="99">
+              <value>
+                <![CDATA[Edit 1/405, 2nd Floor, SBI, Surat, Gujarat 395001]]>
+              </value>
+            </param>
+            <param index="100">
+              <value>
+                <![CDATA[EditSBISWIFT124]]>
+              </value>
+            </param>
+            <param index="101">
+              <value>
+                <![CDATA[EditHashCurrent Avccount]]>
+              </value>
+            </param>
+            <param index="102">
+              <value>
+                <![CDATA[Kuwaiti Dinar]]>
+              </value>
+            </param>
+            <param index="103">
+              <value>
+                <![CDATA[EditSBINO123456789123456]]>
+              </value>
+            </param>
+            <param index="104">
+              <value>
+                <![CDATA[EditSBIIBAN12235555544444]]>
+              </value>
+            </param>
+            <param index="105">
+              <value>
+                <![CDATA[Mr. Edit John Snow B'M]]>
+              </value>
+            </param>
+            <param index="106">
+              <value>
+                <![CDATA[International]]>
+              </value>
+            </param>
+            <param index="107">
+              <value>
+                <![CDATA[+928698706566]]>
+              </value>
+            </param>
+            <param index="108">
+              <value>
+                <![CDATA[EditICICI Bank]]>
+              </value>
+            </param>
+            <param index="109">
+              <value>
+                <![CDATA[EditICICISWIT12]]>
+              </value>
+            </param>
+            <param index="110">
+              <value>
+                <![CDATA[Mrs. Edit Robert B'aratheon]]>
+              </value>
+            </param>
+            <param index="111">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+            <param index="112">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="113">
+              <value>
+                <![CDATA[Miss. EditAegon Targarian]]>
+              </value>
+            </param>
+            <param index="114">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="115">
+              <value>
+                <![CDATA[Bahamas]]>
+              </value>
+            </param>
+            <param index="116">
+              <value>
+                <![CDATA[Edit P B Dhangar PCD]]>
+              </value>
+            </param>
+            <param index="117">
+              <value>
+                <![CDATA[Edit C E Officer]]>
+              </value>
+            </param>
+            <param index="118">
+              <value>
+                <![CDATA[International]]>
+              </value>
+            </param>
+            <param index="119">
+              <value>
+                <![CDATA[+923456789077]]>
+              </value>
+            </param>
+            <param index="120">
+              <value>
+                <![CDATA[Editpbdhanger@gmail.com]]>
+              </value>
+            </param>
+            <param index="121">
+              <value>
+                <![CDATA[Mr. Edit A S S'hivade CFD]]>
+              </value>
+            </param>
+            <param index="122">
+              <value>
+                <![CDATA[Edit M Director]]>
+              </value>
+            </param>
+            <param index="123">
+              <value>
+                <![CDATA[Pakistan]]>
+              </value>
+            </param>
+            <param index="124">
+              <value>
+                <![CDATA[1234567888]]>
+              </value>
+            </param>
+            <param index="125">
+              <value>
+                <![CDATA[Editasshivade@gmail.com]]>
+              </value>
+            </param>
+            <param index="126">
+              <value>
+                <![CDATA[EditEmmar ODD]]>
+              </value>
+            </param>
+            <param index="127">
+              <value>
+                <![CDATA[EditFinance Manager]]>
+              </value>
+            </param>
+            <param index="128">
+              <value>
+                <![CDATA[Pakistan]]>
+              </value>
+            </param>
+            <param index="129">
+              <value>
+                <![CDATA[1234567811]]>
+              </value>
+            </param>
+            <param index="130">
+              <value>
+                <![CDATA[Editemmar_123@gmail.com]]>
+              </value>
+            </param>
+            <param index="131">
+              <value>
+                <![CDATA[Mr. EditJ P Datta A'CCD]]>
+              </value>
+            </param>
+            <param index="132">
+              <value>
+                <![CDATA[EditOperation Manager]]>
+              </value>
+            </param>
+            <param index="133">
+              <value>
+                <![CDATA[Pakistan]]>
+              </value>
+            </param>
+            <param index="134">
+              <value>
+                <![CDATA[1234567822]]>
+              </value>
+            </param>
+            <param index="135">
+              <value>
+                <![CDATA[Editjpdatta@gmail.com]]>
+              </value>
+            </param>
+            <param index="136">
+              <value>
+                <![CDATA[EditOil Filtration]]>
+              </value>
+            </param>
+            <param index="137">
+              <value>
+                <![CDATA[Mr. Edit Johan C'arter]]>
+              </value>
+            </param>
+            <param index="138">
+              <value>
+                <![CDATA[Mr.Edit Jiya D'susa]]>
+              </value>
+            </param>
+            <param index="139">
+              <value>
+                <![CDATA[Pakistan]]>
+              </value>
+            </param>
+            <param index="140">
+              <value>
+                <![CDATA[1234567833]]>
+              </value>
+            </param>
+            <param index="141">
+              <value>
+                <![CDATA[EditJiya@hashtaginfosystem.com]]>
+              </value>
+            </param>
+            <param index="142">
+              <value>
+                <![CDATA[Mr. Edit Tom J'erry]]>
+              </value>
+            </param>
+            <param index="143">
+              <value>
+                <![CDATA[Pakistan]]>
+              </value>
+            </param>
+            <param index="144">
+              <value>
+                <![CDATA[1234567877]]>
+              </value>
+            </param>
+            <param index="145">
+              <value>
+                <![CDATA[Edittom@hashtaginfosystem.in]]>
+              </value>
+            </param>
+            <param index="146">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\2ArtOfAsso107.jpeg]]>
+              </value>
+            </param>
+            <param index="147">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\3TradeLisc133.pdf]]>
+              </value>
+            </param>
+            <param index="148">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\4TaxRegi.jpeg]]>
+              </value>
+            </param>
+            <param index="149">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\5CompProfile70.png]]>
+              </value>
+            </param>
+            <param index="150">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\6BankRef43.png]]>
+              </value>
+            </param>
+            <param index="151">
+              <value>
+                <![CDATA[www.edithashtaginfosystemurl.com]]>
+              </value>
+            </param>
+            <param index="152">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\7Passport133.pdf]]>
+              </value>
+            </param>
+            <param index="153">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\8AuthoSign105.jpeg]]>
+              </value>
+            </param>
+            <param index="154">
+              <value>
+                <![CDATA[C:\Users\PC\git\AEClientUITest\Adambrands\Upload Document\1certOfInc43.png]]>
+              </value>
+            </param>
+            <param index="155">
+              <value>
+                <![CDATA[Mr. EditNikhil]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign in']"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [862b22cf308c867998f0cf11bb088386, findElement {using=xpath, value=//a[text()='Sign in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53276/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 862b22cf308c867998f0cf11bb088386]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign in']"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [862b22cf308c867998f0cf11bb088386, findElement {using=xpath, value=//a[text()='Sign in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53276/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 862b22cf308c867998f0cf11bb088386
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at EditKYCBeforeSubmitPage.AClHomePage.clickHomePageSignInButton(AClHomePage.java:30)
+at EditKYCBeforeSubmit.EditKYCBeforeSubmit.KYCFormFill(EditKYCBeforeSubmit.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KYCFormFill -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:EditKYCBeforeSubmit.EditKYCBeforeSubmit@34123d65]" started-at="2023-10-02T14:41:58 IST" name="logOut" finished-at="2023-10-02T14:41:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- EditKYCBeforeSubmit.EditKYCBeforeSubmit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
